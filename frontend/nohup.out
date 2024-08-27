@@ -1,0 +1,26 @@
+
+> telematics-frontend@0.1.0 start
+> react-scripts start
+
+(node:21316) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(node:21316) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+
+Compiled successfully!
+
+You can now view telematics-frontend in the browser.
+
+  Local:            http://localhost:3000
+  On Your Network:  http://172.31.0.228:3000
+
+Note that the development build is not optimized.
+To create a production build, use npm run build.
+
+webpack compiled successfully
+npm ERR! path /home/ubuntu/active-telematics/telematics-frontend
+npm ERR! command failed
+npm ERR! signal SIGHUP
+npm ERR! command sh -c react-scripts start
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/ubuntu/.npm/_logs/2023-10-24T07_21_37_035Z-debug-0.log

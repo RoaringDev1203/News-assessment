@@ -1,0 +1,55 @@
+@import "rsuite/dist/rsuite.css";
+
+body{
+  background-color: #fff !important;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.table{
+  text-align: center;
+}
+.column{
+  text-align: center;
+}
+
+option{
+  color: black;
+}
+.column img{
+  height:50px;
+  width:50px !important;
+  border-radius: 3px;
+  border:1px solid black;
+}
+.column img:hover{
+  cursor: pointer;
+}
+
+.scrolable{
+  height: 200px;
+  scroll-behavior: smooth;
+}
+.rti--container{
+  --rti-main:"#000000"  !important;
+}
+.card-header{
+  background-color: #fff !important;
+  border-bottom: none !important;
+}
+hr.horizontal.dark.mt-0 {
+  display: none;
+}
+.form-control:focus{
+  border: #000;
+}
+img{
+  object-fit: cover;
+}
